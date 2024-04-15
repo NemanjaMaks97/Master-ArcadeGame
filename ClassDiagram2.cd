@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BackgroundScroller">
+    <Position X="1" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAQAAAAAAAAAQABAACAAwAAAAA=</HashCode>
+      <FileName>Assets\BackgroundScroller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BombMovement">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEqCAAAAAAAQAAAAEAEAAgAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\BombMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossT1">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAABAAAAACAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\BossT1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossT2">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAoAABAAAAACAAAAAAAAAAAQEAAAAABAAAAA=</HashCode>
+      <FileName>Assets\BossT2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossT3">
+    <Position X="3.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAoBABIAAAACAAAAAAAAAAAQEAAAAABAAAAA=</HashCode>
+      <FileName>Assets\BossT3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletMovement">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="BulletMovement.Direction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\BulletMovement.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAqAAAAAAAAAAAAAAAAAAAAAAAAAgABAQCAA=</HashCode>
+      <FileName>Assets\BulletMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DestroyOnEnd">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\DestroyOnEnd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DropController">
+    <Position X="12.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\DropController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyBase">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="EnemyBase.EnemyTier" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\EnemyBase.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAIhABAAAAADAACACQAFAAQRAAABAgAAQAAA=</HashCode>
+      <FileName>Assets\EnemyBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyController">
+    <Position X="12.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAABAAAAAAAIAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\EnemyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyT1">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\EnemyT1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyT2">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAABAAAAACAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\EnemyT2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyT3">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAABAAAAACAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\EnemyT3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Game.PlayerHit" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Game.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Game.PlayerHeal" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Game.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Game.EnemyDestroyed" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Game.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Game.PlayerDestroyed" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Game.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAQABACAAABAAAAAAAAAAAAAABAAAAEBIAQAAAQAAAA=</HashCode>
+      <FileName>Assets\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameController">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQhB4kCgCwhRggBAAYgkIAKAAEAggAQAgACYAAwASA=</HashCode>
+      <FileName>Assets\GameController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuController">
+    <Position X="12.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAhAIAAgAABAAAAAAAgAQAgAAAIgAAAAwAAQAAQAQA=</HashCode>
+      <FileName>Assets\MenuController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController">
+    <Position X="10.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAjkAAIAAAAAAEIIAQEAAAAAwAAAggQAAAgA=</HashCode>
+      <FileName>Assets\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
